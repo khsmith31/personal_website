@@ -1,0 +1,26 @@
+/* Base Reset and Variables */
+* {
+    margin: 0;
+    padding: 0;
+   box-box-sizing: border-box;
+   font-family: 'Arial', sans-serif;
+}
+
+:root {
+    --bg-dark: #121214;
+    --bg-card: #1a1a1e;
+    --text-main: #f5f5f7;
+    --primary-purple: #91456ff; /*Twitch inspired*/
+    --primary-red: #ff0000; /*YouTube inspired*/
+    --accent: #00f2fe;   
+}
+
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    line-height: 1.6;
+    padding-bottom: 60px;
+}
+
+/* Stopped here*/
